@@ -9,9 +9,8 @@ class HelloWorld extends React.Component {
     handleClick = (e) => {
         this.setState({
              who: e.target.innerText
-             
-          
-        });    
+        }); 
+
     }
     render()  {
       return (
